@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import buses from '../assets/buses.jpeg'
 
 function LandingPage() {
   return (
@@ -32,8 +33,8 @@ function LandingPage() {
             <div className="relative mt-8 md:mt-0">
               <div className="absolute -inset-2 bg-green-600/10 rounded-2xl transform rotate-3"></div>
               <img 
-                src="https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Transporte de lujo"
+                src={buses}
+                alt="Flota de buses"
                 className="relative rounded-xl shadow-xl w-full object-cover h-[300px] md:h-[400px] transform transition duration-500 hover:scale-[1.02]"
                 loading="lazy"
               />
